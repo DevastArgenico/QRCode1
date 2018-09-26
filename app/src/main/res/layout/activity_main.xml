@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:background="#ffebee"
+        android:fontFamily="sans-serif"
+        android:text="Hello Android 7"
+        android:textColor="#f44336"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:background="#ede7f6"
+        android:text="Android Nougat"
+        android:textAllCaps="true"
+        android:textColor="#7e57c2"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:background="#e8eaf6"
+        android:text="Hello Android 7"
+        android:textAlignment="textEnd"
+        android:textColor="#5c6bc0"
+        android:textSize="26sp" />
+</LinearLayout>
